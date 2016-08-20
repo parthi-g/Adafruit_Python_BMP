@@ -1,11 +1,16 @@
 Adafruit Python BMP
 ===================
 
-Python library for accessing the BMP series pressure and temperature sensors like the BMP085/BMP180 on a Raspberry Pi or Beaglebone Black.
+Adafruit Python BMP Example modified to work with BeagleBone Green I2C Grove Connector.
 
-Designed specifically to work with the Adafruit BMP085/BMP180 pressure sensors ----> https://www.adafruit.com/products/1603
+# Based on the Adafruit BMP280 Driver C++ driver and the BMP085 python lib.
+#  - https://github.com/adafruit/Adafruit_BMP280_Library
+#  - https://github.com/adafruit/Adafruit_Python_BMP
+#  - https://github.com/bastienwirtz/Adafruit_Python_BMP
 
-To install, download the library by clicking the download zip link to the right and unzip the archive somewhere on your Raspberry Pi or Beaglebone Black.  Then execute the following command in the directory of the library:
+Python library for accessing the BMP series pressure and temperature sensor BMP280 on Beaglebone Green I2C Grove Connector.
+
+To install, download the library by clicking the download zip link to the right and unzip the archive somewhere on your Beaglebone Green.  Then execute the following command in the directory of the library:
 
 ````
 sudo python setup.py install
