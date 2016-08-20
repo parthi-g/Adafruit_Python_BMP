@@ -7,7 +7,7 @@
 
 import Adafruit_BMP.BMP280 as BMP280
 
-sensor = BMP280.BMP280()
+sensor = BMP280.BMP280(busnum=2)
 
 print 'Temp = {0:0.2f} *C'.format(sensor.read_temperature())
 print 'Pressure = {0:0.2f} Pa'.format(sensor.read_pressure())
